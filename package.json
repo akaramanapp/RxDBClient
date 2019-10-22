@@ -1,0 +1,44 @@
+{
+  "name": "RxDBClient",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.2",
+    "assert": "^2.0.0",
+    "async-storage": "^0.1.0",
+    "buffer": "^5.4.3",
+    "events": "^3.0.0",
+    "level-sublevel-stream": "^0.1.0",
+    "pouchdb-adapter-asyncstorage": "^6.4.1",
+    "pouchdb-adapter-memory": "^7.1.1",
+    "react": "16.9.0",
+    "react-native": "0.61.2",
+    "react-native-unique-id": "^2.0.0",
+    "react-native-uuid-generator": "^6.1.1",
+    "readable-stream": "^3.4.0",
+    "rxdb": "^8.7.1",
+    "rxdb-core": "0.0.1",
+    "rxjs": "^6.5.3",
+    "sublevel-pouchdb": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/runtime": "7.6.3",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.5.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
